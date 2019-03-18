@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Ryu",
+    "image": "https://vignette.wikia.nocookie.net/sfgalleries/images/a/a7/Ryu_face.gif/revision/latest/scale-to-width-down/200?cb=20100613112226",
+    "count": 0
+  },
+  {
+    "id": 2,
+    "name": "E. Honda",
+    "image": "https://vignette.wikia.nocookie.net/sfgalleries/images/1/12/Ehonda.gif/revision/latest/scale-to-width-down/200?cb=20100613125641",
+    "count": 0
+  },
+  {
+    "id": 3,
+    "name": "Blanka",
+    "image": "https://vignette.wikia.nocookie.net/sfgalleries/images/b/bb/Blanka_face.gif/revision/latest/scale-to-width-down/200?cb=20100613134737",
+    "count": 0
+  },
+  {
+    "id": 4,
+    "name": "Guile",
+    "image": "https://vignette.wikia.nocookie.net/sfgalleries/images/6/6a/Guile.gif/revision/latest/scale-to-width-down/200?cb=20100613163514",
+    "count": 0
+  },
+  {
+    "id": 5,
+    "name": "T. Hawk",
+    "image": "https://vignette.wikia.nocookie.net/sfgalleries/images/b/bb/T.Hawk.jpg/revision/latest/scale-to-width-down/200?cb=20100617071133",
+    "count": 0
+  },
+  {
+    "id": 6,
+    "name": "Fei Long",
+    "image": "https://vignette.wikia.nocookie.net/sfgalleries/images/7/71/Character_Select_Fei_Long_by_UdonCrew.jpg/revision/latest/scale-to-width-down/200?cb=20100617071945",
+    "count": 0
+  },
+  {
+    "id": 7,
+    "name": "Balrog",
+    "image": "https://vignette.wikia.nocookie.net/sfgalleries/images/1/1d/Balrog.jpg/revision/latest/scale-to-width-down/200?cb=20100617065712",
+    "count": 0
+  },
+  {
+    "id": 8,
+    "name": "Sagat",
+    "image": "https://vignette.wikia.nocookie.net/sfgalleries/images/5/5e/Sagat.gif/revision/latest/scale-to-width-down/200?cb=20100617070603",
+    "count": 0
+  },
+  {
+    "id": 9,
+    "name": "Ken",
+    "image": "https://vignette.wikia.nocookie.net/sfgalleries/images/4/4b/Ken_face.gif/revision/latest/scale-to-width-down/200?cb=20100617060957",
+    "count": 0
+  },
+  {
+    "id": 10,
+    "name": "Chun-Li",
+    "image": "https://vignette.wikia.nocookie.net/sfgalleries/images/f/f6/Chun-li.gif/revision/latest/scale-to-width-down/200?cb=20100617064339",
+    "count": 0
+  },
+  {
+    "id": 11,
+    "name": "Zangief",
+    "image": "https://vignette.wikia.nocookie.net/sfgalleries/images/5/52/Zangief_face.gif/revision/latest/scale-to-width-down/200?cb=20100617064807",
+    "count": 0
+  },
+  {
+    "id": 12,
+    "name": "Dhalsim",
+    "image": "https://vignette.wikia.nocookie.net/sfgalleries/images/5/54/Dhalsim_face.gif/revision/latest/scale-to-width-down/200?cb=20100613132913",
+    "count": 0
+  },
+  {
+    "id": 13,
+    "name": "Cammy",
+    "image": "https://vignette.wikia.nocookie.net/sfgalleries/images/a/a4/535px-Character_Select_Cammy.jpg/revision/latest/scale-to-width-down/200?cb=20100617072247",
+    "count": 0
+  },
+  {
+    "id": 14,
+    "name": "Dee Jay",
+    "image": "https://vignette.wikia.nocookie.net/sfgalleries/images/0/05/Character_Select_Deejay_by_UdonCrew.jpg/revision/latest/scale-to-width-down/200?cb=20100617071516",
+    "count": 0
+  },
+  {
+    "id": 15,
+    "name": "Vega",
+    "image": "https://vignette.wikia.nocookie.net/sfgalleries/images/9/95/Balrog.gif/revision/latest/scale-to-width-down/200?cb=20100617070043",
+    "count": 0
+  },
+  {
+    "id": 16,
+    "name": "M. Bison",
+    "image": "https://vignette.wikia.nocookie.net/sfgalleries/images/7/7c/Vega.gif/revision/latest/scale-to-width-down/200?cb=20100617070322",
+    "count": 0
+  }
+]
