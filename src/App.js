@@ -7,16 +7,36 @@ import fighters from "./fighters.json";
 class App extends Component {
   state = {
     fighters,
-    score: 0
+    score: 0,
+    highscore: 0
   };
 
-  clickCount = id => {
-    this.setState( prevState => {
-      return {
-          score: prevState.score + 1
-      };
+  gameOver = () => {
+    if (this.state.score > this.state.highscore) {
+      this.setState({highscore: this.state.score});
+    }
+    this.state.fighters.forEach(fighter => {
+      fighter.count = 0;
     });
-    this.state.fighters.sort(function(a, b){return 0.5 - Math.random()});
+    this.setState({score: 0});
+  }
+
+  clickCount = id => {
+    // console.log(id);
+    let result = this.state.fighters.find( fighter => fighter.id === id);
+    if (result.count === 0) {
+      result.count = result.count + 1;
+      console.log(result);
+      this.setState( prevState => {
+        return {
+          score: prevState.score + 1
+        };
+      });
+      this.state.fighters.sort(function(a, b){return 0.5 - Math.random()});
+    } else if (result.count > 0) {
+      this.gameOver();
+      // console.log("gameover");
+    }
   };
 
   removeFriend = id => {
@@ -30,7 +50,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title score={this.state.score}>Street Fighter</Title>
+        <Title score={this.state.score} highscore={this.state.highscore}>Street Fighter</Title>
         {this.state.fighters.map(fighter => (
           <Card
             id={fighter.id}
