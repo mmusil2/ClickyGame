@@ -12,6 +12,7 @@ class App extends Component {
   };
 
   gameOver = () => {
+    alert("GAME OVER!");
     if (this.state.score > this.state.highscore) {
       this.setState({highscore: this.state.score});
     }
